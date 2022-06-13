@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Your Order</title>
+<meta charset="utf-8" />
+<meta name="viewpoint" content="width=device-width,initial-scal=1.0">
+<meta http-equip="X-UA-compatible" content="ie=edge">
+<link rel="stylesheet" href="style.css" media="screen" type="text/css" />
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+<script type="text/javascript" src="jquery.store.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body id="checkout-page" style="background-color:white;">
+
+	<section id="nav-bar">
+		<nav class="navbar navbar-expand-lg navbar-light">
+  		<h1> FurnitureMart </h1>
+  		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    			<span class="navbar-toggler-icon"></span>
+  		</button>
+  		<div class="collapse navbar-collapse" id="navbarNav">
+  		
+    		<ul class="navbar-nav ml-auto">
+    		 <li>
+				<a style="color:white;" class="nav-link" href="#home">Home</a>
+			</li>
+    		 <li class="nav-item">
+        		<a style="color:white;" class="nav-link" href="#featured-categories"> Products</a>
+      		</li>
+      		<li class="nav-item">
+        		<a style="color:white;" class="nav-link" href="C:\Users\Smridhi Gupta\Desktop\WEBSITE\New folder\trial\web1\cart.html">Cart</a>
+      		</li>
+      		<li class="nav-item">
+        		<a style="color:white;" class="nav-link" href="#about">About Us</a>
+      		</li>
+      		
+      		<li class="nav-item">
+        		<a style="color:white;" class="nav-link" href="#services">Our Services</a>
+      		</li>
+      		
+      		<li class="nav-item">
+        		<a style="color:white;" class="nav-link" href="#team" tabindex="-1" aria-disabled="true">Our Team</a>
+      		</li>
+      		<li class="nav-item">
+        		<a style="color:white;" class="nav-link" href="#contact">Contact</a>
+      		</li>
+    		</ul>
+  		</div>
+		</nav>
+
+<div id="site">
+	<div id="content">
+		<h1>Your Order</h1>
+			<table id="checkout-cart" class="shopping-cart">
+			  <thead>
+				<tr>
+					<th scope="col"  >Item</th>
+					<th scope="col" >Qty</th>
+					<th scope="col">Price</th>
+				</tr>
+			  </thead>
+			  <tbody>
+			  
+			  </tbody>
+			</table>
+		 <div id="pricing">
+			
+			<p id="shipping">
+				<strong>Shipping</strong>: <span id="sshipping"></span>
+			</p>
+			
+			<p id="sub-total">
+				<strong>Total</strong>: <span id="stotal"></span>
+			</p>
+		 </div>
+		 
+		 <div id="user-details">
+		 	<h2>Your Data</h2>
+		 	<div id="user-details-content"></div>
+		 </div>
+		<form id="paypal-form" action="" method="post">
+			<input type="hidden" name="cmd" value="_cart" />
+			<input type="hidden" name="upload" value="1" />
+			<input type="hidden" name="business" value="" />
+				
+			<input type="hidden" name="currency_code" value="" />
+			<input type="submit" id="paypal-btn" class="btn" value="Pay with PayPal" />
+		</form>	 
+	</div>
+</div>
+
+<footer id="site-info">
+		Copyright &copy; 
+	</footer>
+
+</body>
+</html>	
+
+   
